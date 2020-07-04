@@ -1,0 +1,35 @@
+/* Navbar */
+
+.header {
+    position: fixed;
+    overflow: auto;
+    width: 100vw;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);}
+  
+  .header--nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav h2 {
+    display: flex;
+    padding: 1.25rem;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .header--nav--ul {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.065rem;
+    list-style-type: none;
+    padding-right: 1rem;
+  }
+  
+  .header--nav--li:hover {
+    background: rgb(112, 110, 110);
+  }
