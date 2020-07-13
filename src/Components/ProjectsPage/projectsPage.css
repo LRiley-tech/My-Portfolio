@@ -22,24 +22,31 @@
     height: 25rem;
     width: 40%;
     margin: 2rem;
-    padding-left: 7rem;
+    padding-left: 2rem;
 }
 
 .project--img {
-width: 350px;
+    /* border: rgb(178, 88, 230) solid; */
+width: 500px;
 height: 300px;
-border-radius: 25%;
+border-radius: 90px;
+}
+
+.project--img:hover {
+    transition: ease-in-out;
 }
 
 /* Glowing buttons */
 .neon {
     overflow: hidden;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     text-decoration: none;
     transition:  .5s;
-    background-color: aqua;
-    border-radius: 25%;
+    background-color: rgb(139, 180, 180);
+    border-radius: 100px;
     margin-top: 1rem;
+    margin-left: 4rem;
+    cursor: pointer;
   }
   
   .neon:hover {

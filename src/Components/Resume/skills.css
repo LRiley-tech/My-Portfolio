@@ -1,0 +1,22 @@
+.resume-body {
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  background: url('/images/Keyboard-Background.jpg');
+}
+
+.resume-body img {
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem;
+}
+
+.resume-body h1 {
+  filter: none;
+  padding: 3rem;
+  color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}

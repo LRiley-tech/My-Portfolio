@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-
+import Resume from './Resume/Resume.pdf'
 const Navbar = () => {
   return (
     <div>
@@ -18,7 +18,7 @@ const Navbar = () => {
               <h2>Projects</h2>
             </li>
             <li>
-              <a href="./Resume/Resume.pdf"><h2 className="header--nav--li">Resume</h2></a>
+              <a href={Resume} target="_blank" rel="noopener noreferrer"><h2 className="header--nav--li">Resume</h2></a>
             </li>
             <li className="header--nav--li">
               <h2>Contact</h2>
