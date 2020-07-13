@@ -18,7 +18,7 @@ const Navbar = () => {
               <h2>Projects</h2>
             </li>
             <li>
-              <h2 className="header--nav--li">Resume</h2>
+              <a href="./Resume/Resume.pdf"><h2 className="header--nav--li">Resume</h2></a>
             </li>
             <li className="header--nav--li">
               <h2>Contact</h2>

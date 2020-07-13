@@ -8,6 +8,11 @@
     text-decoration: none;
   }
 
-  body {
-    background: url('/images/cool-blue-background.jpg') no-repeat center;
-  }
+/* ::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb {
+ background: rgb(57, 215, 236);
+ border-radius: 6px;
+} */

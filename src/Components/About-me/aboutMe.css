@@ -5,9 +5,15 @@
     font-family: "Courier New", Courier, monospace;
 }
 
+.aboutMe--body {
+    background: url('/images/cool-blue-background.jpg') no-repeat center;
+    width: 100vw;
+    height: 100vh;
+}
+
 .port-img {
-    background: url('/');
-    border-radius: 50% #2e48db solid;
+    z-index: 3;
+    border-radius: 80%;
     height: 300px;
     width: 300px;
 }
@@ -60,5 +66,11 @@
     {
         opacity: 0;
         transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+@media (max-width: 375px) {
+    .arrow{
+        top: 100%;
     }
 }
