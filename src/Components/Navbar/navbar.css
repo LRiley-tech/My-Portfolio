@@ -19,7 +19,7 @@ nav ul li {
     display: inline-flex;
 }
 
-nav ul li a {
+nav ul li .link {
     position: relative;
     padding: 1.25rem;
     color: whitesmoke;
@@ -27,6 +27,7 @@ nav ul li a {
     text-transform: uppercase;
     font-family: "Courier New", Courier, monospace;
     font-size: 1.065rem;
+    cursor: pointer;
 }
 
 nav h2 {
@@ -37,12 +38,12 @@ nav h2 {
     font-family: "Courier New", Courier, monospace;
   }
 
-nav ul li a:hover {
+nav ul li .link:hover {
     color: #2196f3;
     transition: .5s;
 }
 
-nav ul li a:after {
+nav ul li .link:after {
     content: '';
     position: absolute;
     left: 50%;
@@ -54,11 +55,11 @@ nav ul li a:after {
     width: 100%;
     height: 2px;
     background-color: rgba(255,255,255,0.9);
-    transition: transform 250ms;
-    -webkit-transition: transfrom 250ms;
+    transition: ease-in-out;
+    -webkit-transition: ease-in-out;
 }
 
-nav ul li a:hover:after {
+nav ul li .link:hover:after {
     -webkit-transform: translateX(-50%) scaleX(1);
     transform: translateX(-50%) scaleX(1);
 }

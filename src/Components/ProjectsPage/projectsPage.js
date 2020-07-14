@@ -9,68 +9,67 @@ const ProjectsPage = () => {
             <div className="flex-container">
             <div className="projects">
                 <img className="project--img" alt="first-website" src="/project-images/first-website.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://first-website-r2h.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/R2H-first-webpage" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/Leo-hotel.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+            <a href="https://leo-hotel-app.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/Leo-hotel-app" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/Hamburger-app.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://navbar-with-animation.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/Navbar-with-animation" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/js-counter.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://simple-counter-app.netlify.app" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/Counter-app" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/guessing-game.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://guess-game-mic.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/Speech-recognization-app" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/ecommerce-app.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://leos-backpacks.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/eCommerce-2.0" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/Github-Locator.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://github-page-locator-app.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/Github-page-locator-app" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/tic-tac-toe-react-hooks.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://tic-tac-t0e-game.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/tic-tac-toe-react" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/Friends-list-project.png" />
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://friends-list-react.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/friends-list-app-react" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
             <img className="project--img" alt="first-website" src="/project-images/Redesign-Samsung.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+                <a href="https://redesign-team-9.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="neon">Website</button></a>
+                <a href="https://github.com/LeCoding-tech/Redesign-team-9" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             <div className="projects">
-            <img className="project--img" alt="first-website" src="/project-images/CHat-box-app.png"/>
-                <button className="neon">Github</button>
-                <button className="neon">Website</button>
+            <img className="project--img" alt="first-website" src="/project-images/Chat-box-app.png"/>
+                <a href="https://github.com/LeCoding-tech/chat-box-app-pure-node" target="_blank" rel="noopener noreferrer"><button className="neon">Github</button></a>
                 <p></p>
             </div>
             </div>

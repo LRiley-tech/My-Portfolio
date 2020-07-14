@@ -7,7 +7,6 @@ const Altbar = () => {
     return (
         <div className="wrapper">
             <nav>
-            
                  <ul>
                      <li><h2 className="logo">Leeangelo Riley</h2></li>
                      <li><Link activeClass="active"
@@ -42,7 +41,7 @@ const Altbar = () => {
               duration={1000}
               className="link"
               ><p>Contact</p></Link></li>
-                     <li><a href={Resume} target="_blank" rel="noopener noreferrer"><h3>Resume</h3></a></li>
+                     <li><a className="link" href={Resume} target="_blank" rel="noopener noreferrer"><h3>Resume</h3></a></li>
                  </ul>
             </nav>
         </div>

@@ -1,4 +1,5 @@
 .projectsPage--body {
+    /* background-color: rgb(19, 16, 16); */
     background: url('/images/stars-background.jpg') no-repeat center/cover;
     width: 100vw;
 
@@ -53,4 +54,41 @@ border-radius: 90px;
     color: #0a1722;
     background: #2196f3 ;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  }
+  
+
+  @media screen and (max-width:667px) {
+    .projects {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    .project--img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .neon {
+        margin-right: 4rem;
+        padding: 1rem;
+    }
+  }
+
+  @media screen and (max-width:1024px) {
+      .projects {
+          padding: 2rem;
+          margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    .project--img {
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+    }
+    .neon {
+        margin: 0;
+    }
   }

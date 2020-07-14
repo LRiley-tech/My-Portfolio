@@ -79,3 +79,18 @@
         top: 100%;
     }
 }
+
+@media screen and (max-width:667px) {
+    .aboutMe--body {
+        height: 80rem;
+    }
+    .arrow{
+        top: 74rem;
+    }
+}
+
+/* @media screen and (max-width:1024px) {
+    .aboutMe--body {
+        height: 40rem;
+    }
+} */

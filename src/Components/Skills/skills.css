@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 50vh;
-  background: url('/images/Keyboard-Background.jpg');
+  background-image: url('/images/Keyboard-Background.jpg');
 }
 
 .resume-body img {
