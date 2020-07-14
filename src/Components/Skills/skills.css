@@ -8,15 +8,21 @@
 }
 
 .resume-body img {
-  width: 10rem;
-  height: 10rem;
-  margin: 2rem;
+  width: 15rem;
+  height: 15rem;
+  padding: 2rem;
+  flex-direction: column;
 }
 
 .resume-body h1 {
-  filter: none;
   padding: 3rem;
   color: whitesmoke;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
+}
+
+.flex-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

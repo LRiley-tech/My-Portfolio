@@ -1,5 +1,6 @@
 import React from 'react'
 import './aboutMe.css'
+import {Link} from 'react-scroll';
 
 const AboutMe = () => {
     return (
@@ -11,9 +12,17 @@ const AboutMe = () => {
             <p className="about-text">An outgoing web developer who has devloped skills from the rigrous Road to Hire program. Under the program for 6 months developing frontend and backend skills.
                 Learned professional development skills as well having mentors mentor and teach me throughout the program</p>
                 <div className="arrow">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <Link activeClass="active"
+              to="projectsPage--body"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className="link"
+              ><span></span>
+              <span></span>
+              <span></span>
+              </Link>
                 </div>
         </div>
         </div>
