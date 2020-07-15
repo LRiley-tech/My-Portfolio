@@ -4,6 +4,7 @@ import Aboutme from '../About-me/aboutMe';
 import ProjectsPage from '../ProjectsPage/projectsPage';
 import Skills from  '../Skills/skills';
 import ContactPage from '../Contact/ContactPage';
+import Footer from '../Footer/footer'
 
 
 const Portfolio = () => {
@@ -14,6 +15,7 @@ const Portfolio = () => {
             <ProjectsPage />
             <Skills />
             <ContactPage />
+            <Footer />
         </>
     )
 }

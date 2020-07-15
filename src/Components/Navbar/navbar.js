@@ -26,7 +26,7 @@ const Altbar = () => {
               className="link"
               ><p>Projects</p></Link></li>
                      <li><Link activeClass="active"
-              to="resume-body"
+              to="skills-body"
               spy={true}
               smooth={true}
               offset={0}
@@ -34,7 +34,7 @@ const Altbar = () => {
               className="link"
               ><p>Skills</p></Link></li>
                      <li><Link activeClass="active"
-              to="contact-body"
+              to="inner-width"
               spy={true}
               smooth={true}
               offset={0}

@@ -3,7 +3,7 @@ import './skills.css'
 const Skills = () => {
     return (
         <>
-        <div className="resume-body">
+        <div className="skills-body">
         <h1>Skills</h1>
         <div className="flex-skills">
              <img className="skills-icon" src="/Icons/HTML-Icon.png" alt="skill-icon" ></img>

@@ -1,20 +1,19 @@
-.resume-body {
+.skills-body {
  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 50vh;
   background-image: url('/images/Keyboard-Background.jpg');
 }
 
-.resume-body img {
+.skills-body img {
   width: 15rem;
   height: 15rem;
   padding: 2rem;
   flex-direction: column;
 }
 
-.resume-body h1 {
+.skills-body h1 {
   padding: 3rem;
   color: whitesmoke;
   font-family: "Courier New", Courier, monospace;

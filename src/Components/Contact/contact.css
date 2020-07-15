@@ -1,13 +1,4 @@
-.contact-body {
-    /* background: url('/images/coding-background.jpg') no-repeat center/cover; */
-    width: 100vw;
-}
 
-.contact-body {
-    background: #313840;
-    padding: 80px 0;
-    text-align: center;
-}
 
 .inner-width {
     max-width: 600px;
@@ -15,21 +6,12 @@
     padding: 0 20px;
 }
 
-.contact-body h1 {
-    font-size: 20px;
-    color: #888;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 400;
-}
-
 .name, .email, .message {
     background: none;
     border: none;
     outline: none;
     border-bottom: 1px solid;
-    color: #888;
+    color: #fff;
     padding: 10px 6px;
     font-size: 14px;
     margin-bottom: 40px;
@@ -38,6 +20,7 @@
 .name {
     float: left;
     width: 270px;
+    margin-right: 2rem;
 }
 
 .message {
@@ -45,20 +28,10 @@
     max-width: 100%;
 }
 
-.contact-body button {
-    background: none;
-    color: #70a1ff;
-    border: 1px solid #70a1ff;
-    padding: 12px 40px;
-    border-radius: 8px;
-    text-transform: uppercase;
-    font-size: 14px;
-    transition: 0.4 linear;
-}
-
-.contact-body button:hover {
-    background: #70a1ff;
-    color: #fff;
+.skills-body button:hover {
+    color: #0a1722;
+    background: #e4428e;
+    box-shadow: 0 0 10px #722046, 0 0 40px #722046, 0 0 80px #722046;
 }
 
 @media screen and (max-width:600px) {
