@@ -87,6 +87,7 @@ class ContactPage extends React.Component {
             <div className="validate" style={{ color: "#e4428e", width: "50%" }}>{this.state.messageError}</div>
 
             <textarea rows="1"
+            name="message"
             placeholder="Message"
              className="message"
              value={this.state.message}
