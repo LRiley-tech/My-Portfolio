@@ -3,7 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('/images/Keyboard-Background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/Keyboard-Background.jpg');
 }
 
 .skills-body img {
@@ -24,4 +24,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media screen and (max-width:667px) {
+  .skills-body img {
+    width: 10rem;
+  height: 10rem;
+  padding: 2rem;
+  }
 }

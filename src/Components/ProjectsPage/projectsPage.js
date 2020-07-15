@@ -250,7 +250,6 @@ const ProjectsPage = () => {
               <button className="neon">Github</button>
             </a>
           </div>
-
           <p></p>
         </div>
         <div className="projects">
@@ -268,9 +267,40 @@ const ProjectsPage = () => {
               <button className="neon">Github</button>
             </a>
           </div>
-
-          <p></p>
         </div>
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/Node-weather-app.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://github.com/LeCoding-tech/node-weather-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/pokemon-inquirer.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://github.com/LeCoding-tech/Pokemon-inquirer-terminal-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   );

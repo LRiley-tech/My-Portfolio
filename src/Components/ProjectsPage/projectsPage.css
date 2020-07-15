@@ -1,7 +1,6 @@
 .projectsPage--body {
     background: url('/images/stars-background.jpg') no-repeat center/cover;
     width: 100vw;
-
 }
 
 .projectsPage--body h1 {
@@ -19,7 +18,7 @@
 }
 
 .projects {
-    height: 25rem;
+    height: 30em;
     width: 40%;
     margin: 2rem;
     padding-left: 2rem;
@@ -28,7 +27,7 @@
 .project--img {
     /* border: rgb(178, 88, 230) solid; */
 width: 500px;
-height: 300px;
+height: 350px;
 border-radius: 90px;
 }
 
@@ -58,8 +57,8 @@ border-radius: 90px;
 
   .neon:hover {
     color: #0a1722;
-    background: #2196f3 ;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    background: #e4428e;
+    box-shadow: 0 0 10px #722046, 0 0 40px #722046, 0 0 80px #722046;
   }
   
 

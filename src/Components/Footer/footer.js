@@ -31,7 +31,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fab fa-github"></i>
+              <i class="fab fa-github fa-2x"></i>
             </a>
             <a
               className="social"
@@ -39,7 +39,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-linkedin fa-2x"></i>
             </a>
           </div>
         </footer>

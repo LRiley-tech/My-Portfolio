@@ -21,6 +21,12 @@
     float: left;
     width: 270px;
     margin-right: 2rem;
+    width: 100%;
+}
+
+.email {
+    width: 80%;
+    float: left;
 }
 
 .message {
@@ -35,7 +41,9 @@
 }
 
 @media screen and (max-width:600px) {
-    .name, .email {
-        width: 100%;
+    .email {
+        float: left;
+    width: 270px;
+    margin-right: 2rem;
     }
 }
