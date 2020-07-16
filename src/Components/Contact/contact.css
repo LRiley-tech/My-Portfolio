@@ -36,8 +36,8 @@
 
 .skills-body button:hover {
     color: #0a1722;
-    background: #e4428e;
-    box-shadow: 0 0 10px #722046, 0 0 40px #722046, 0 0 80px #722046;
+    background: #a34871;
+    box-shadow: 0 0 10px #722046, 0 0 40px #722046, 0 0 70px #722046;
 }
 
 @media screen and (max-width:600px) {
