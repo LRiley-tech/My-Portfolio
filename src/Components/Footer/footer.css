@@ -10,10 +10,16 @@
   }
 
   .footer--text {
-    padding: 1rem;
     font-family: "Courier New", Courier, monospace;
     font-size: 20px;
     color: #fff;
+  }
+
+  .last-updated {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    color: #fff;
+    padding-right: 8rem;
   }
 
   .footer--socialLinks {
@@ -49,5 +55,14 @@
     }
     .fab {
       font-size: 1.5rem !important;
+    }
+    .last-updated {
+      padding-right: 0;
+    }
+  }
+
+  @media screen and (max-width:1024px) {
+    .last-updated {
+      padding-right: 0;
     }
   }

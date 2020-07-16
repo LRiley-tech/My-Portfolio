@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <p className="footer--text">Last Modified: 7/16/2020</p>
+          <p className="last-updated">Last Modified: 7/16/2020</p>
 
           <div className="footer--socialLinks">
             <a
