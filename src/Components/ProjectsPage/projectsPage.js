@@ -10,128 +10,6 @@ const ProjectsPage = () => {
           <img
             className="project--img"
             alt="first-website"
-            src="/project-images/first-website.png"
-          />
-          <div className="button-container">
-            <a
-              href="https://first-website-r2h.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Website</button>
-            </a>
-            <a
-              href="https://github.com/LeCoding-tech/R2H-first-webpage"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Github</button>
-            </a>
-          </div>
-          <p></p>
-        </div>
-        <div className="projects">
-          <img
-            className="project--img"
-            alt="first-website"
-            src="/project-images/Leo-hotel.png"
-          />
-          <div className="button-container">
-            <a
-              href="https://leo-hotel-app.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Website</button>
-            </a>
-            <a
-              href="https://github.com/LeCoding-tech/Leo-hotel-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Github</button>
-            </a>
-          </div>
-          <p></p>
-        </div>
-        <div className="projects">
-          <img
-            className="project--img"
-            alt="first-website"
-            src="/project-images/Hamburger-app.png"
-          />
-          <div className="button-container">
-            <a
-              href="https://navbar-with-animation.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Website</button>
-            </a>
-            <a
-              href="https://github.com/LeCoding-tech/Navbar-with-animation"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Github</button>
-            </a>
-          </div>
-          <p></p>
-        </div>
-        <div className="projects">
-          <img
-            className="project--img"
-            alt="first-website"
-            src="/project-images/js-counter.png"
-          />
-          <div className="button-container">
-            <a
-              href="https://simple-counter-app.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Website</button>
-            </a>
-            <a
-              href="https://github.com/LeCoding-tech/Counter-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Github</button>
-            </a>
-          </div>
-
-          <p></p>
-        </div>
-        <div className="projects">
-          <img
-            className="project--img"
-            alt="first-website"
-            src="/project-images/guessing-game.png"
-          />
-          <div className="button-container">
-            <a
-              href="https://guess-game-mic.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Website</button>
-            </a>
-            <a
-              href="https://github.com/LeCoding-tech/Speech-recognization-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Github</button>
-            </a>
-          </div>
-
-          <p></p>
-        </div>
-        <div className="projects">
-          <img
-            className="project--img"
-            alt="first-website"
             src="/project-images/ecommerce-app.png"
           />
           <div className="button-container">
@@ -150,34 +28,8 @@ const ProjectsPage = () => {
               <button className="neon">Github</button>
             </a>
           </div>
-
-          <p></p>
         </div>
-        <div className="projects">
-          <img
-            className="project--img"
-            alt="first-website"
-            src="/project-images/Github-Locator.png"
-          />
-          <div className="button-container">
-            <a
-              href="https://github-page-locator-app.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Website</button>
-            </a>
-            <a
-              href="https://github.com/LeCoding-tech/Github-page-locator-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Github</button>
-            </a>
-          </div>
 
-          <p></p>
-        </div>
         <div className="projects">
           <img
             className="project--img"
@@ -200,34 +52,25 @@ const ProjectsPage = () => {
               <button className="neon">Github</button>
             </a>
           </div>
-
-          <p></p>
         </div>
+
         <div className="projects">
           <img
             className="project--img"
             alt="first-website"
-            src="/project-images/Friends-list-project.png"
+            src="/project-images/Chat-box-app.png"
           />
           <div className="button-container">
             <a
-              href="https://friends-list-react.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Website</button>
-            </a>
-            <a
-              href="https://github.com/LeCoding-tech/friends-list-app-react"
+              href="https://github.com/LeCoding-tech/chat-box-app-pure-node"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className="neon">Github</button>
             </a>
           </div>
-
-          <p></p>
         </div>
+
         <div className="projects">
           <img
             className="project--img"
@@ -250,17 +93,24 @@ const ProjectsPage = () => {
               <button className="neon">Github</button>
             </a>
           </div>
-          <p></p>
         </div>
+
         <div className="projects">
           <img
             className="project--img"
             alt="first-website"
-            src="/project-images/Chat-box-app.png"
+            src="/project-images/Github-Locator.png"
           />
           <div className="button-container">
             <a
-              href="https://github.com/LeCoding-tech/chat-box-app-pure-node"
+              href="https://github-page-locator-app.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/Github-page-locator-app"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -268,6 +118,7 @@ const ProjectsPage = () => {
             </a>
           </div>
         </div>
+
         <div className="projects">
           <img
             className="project--img"
@@ -284,6 +135,55 @@ const ProjectsPage = () => {
             </a>
           </div>
         </div>
+
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/guessing-game.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://guess-game-mic.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/Speech-recognization-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/Friends-list-project.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://friends-list-react.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/friends-list-app-react"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
         <div className="projects">
           <img
             className="project--img"
@@ -301,6 +201,101 @@ const ProjectsPage = () => {
           </div>
         </div>
 
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/Hamburger-app.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://navbar-with-animation.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/Navbar-with-animation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/js-counter.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://simple-counter-app.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/Counter-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/Leo-hotel.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://leo-hotel-app.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/Leo-hotel-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/first-website.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://first-website-r2h.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/R2H-first-webpage"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

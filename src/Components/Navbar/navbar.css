@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     position: fixed;
+    justify-content: flex-end;
 }
 
 nav {
@@ -32,10 +33,10 @@ nav ul li .link {
 
 nav h2 {
     padding: 1.25rem;
-    padding-right: 40rem;
     text-decoration: none;
     color: whitesmoke;
     font-family: "Courier New", Courier, monospace;
+    padding-right: 40rem;
   }
 
 nav ul li .link:hover {
