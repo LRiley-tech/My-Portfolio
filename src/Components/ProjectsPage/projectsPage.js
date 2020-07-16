@@ -99,6 +99,30 @@ const ProjectsPage = () => {
           <img
             className="project--img"
             alt="first-website"
+            src="/project-images/r2h-note-taking-app.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://r2h-note-taking-app.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/R2H-Note-taking-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
             src="/project-images/Github-Locator.png"
           />
           <div className="button-container">
