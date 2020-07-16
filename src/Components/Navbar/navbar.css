@@ -1,8 +1,5 @@
 .wrapper {
-    display: flex;
-    flex-direction: column;
     position: fixed;
-    justify-content: flex-end;
 }
 
 nav {
@@ -10,13 +7,20 @@ nav {
     width: 100vw;
 }
 
+
 nav ul {
+    width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+.nav-ele {
+    float: right;
+}
+
 nav ul li {
+    justify-content: flex-end;
     display: inline-flex;
 }
 
@@ -36,7 +40,6 @@ nav h2 {
     text-decoration: none;
     color: whitesmoke;
     font-family: "Courier New", Courier, monospace;
-    padding-right: 40rem;
   }
 
 nav ul li .link:hover {
@@ -63,4 +66,8 @@ nav ul li .link:after {
 nav ul li .link:hover:after {
     -webkit-transform: translateX(-50%) scaleX(1);
     transform: translateX(-50%) scaleX(1);
+}
+
+.bold {
+    font-weight: bold;
 }

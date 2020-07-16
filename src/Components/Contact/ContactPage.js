@@ -60,6 +60,7 @@ class ContactPage extends React.Component {
 
   render() {
     return (
+      <div className="contact">
         <div className="skills-body">
           <div className="inner-width">
             <h1>Contact me</h1>
@@ -97,7 +98,7 @@ class ContactPage extends React.Component {
             </form>
           </div>
         </div>
-
+      </div>
     );
   }
 }

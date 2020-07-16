@@ -164,6 +164,54 @@ const ProjectsPage = () => {
           <img
             className="project--img"
             alt="first-website"
+            src="/project-images/Friends-list-project.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://friends-list-react.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/friends-list-app-react"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
+            src="/project-images/react-counter-app.png"
+          />
+          <div className="button-container">
+            <a
+              href="https://react-counter-app-lifecycles.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Website</button>
+            </a>
+            <a
+              href="https://github.com/LeCoding-tech/counter-app-lifecycles"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="neon">Github</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects">
+          <img
+            className="project--img"
+            alt="first-website"
             src="/project-images/guessing-game.png"
           />
           <div className="button-container">
@@ -184,29 +232,7 @@ const ProjectsPage = () => {
           </div>
         </div>
 
-        <div className="projects">
-          <img
-            className="project--img"
-            alt="first-website"
-            src="/project-images/Friends-list-project.png"
-          />
-          <div className="button-container">
-            <a
-              href="https://friends-list-react.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Website</button>
-            </a>
-            <a
-              href="https://github.com/LeCoding-tech/friends-list-app-react"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="neon">Github</button>
-            </a>
-          </div>
-        </div>
+        
 
         <div className="projects">
           <img
