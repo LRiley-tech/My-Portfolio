@@ -53,7 +53,7 @@ class ContactPage extends React.Component {
     if (isValid) {
       console.log(this.state);
       //Clearing form
-      this.setState(defaultState);
+      // this.setState(defaultState);
     }
   };
 
