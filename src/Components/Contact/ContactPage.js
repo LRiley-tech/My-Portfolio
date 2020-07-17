@@ -49,12 +49,13 @@ class ContactPage extends React.Component {
   };
 
   handleSubmit = (event) => {
-    // event.preventDefault();
     const isValid = this.validate();
     if (isValid) {
       console.log(this.state);
       //Clearing form
-      // this.setState(defaultState);
+      this.setState(defaultState);
+    } else if  (!isValid) {
+      event.preventDefault();
     }
   };
 
