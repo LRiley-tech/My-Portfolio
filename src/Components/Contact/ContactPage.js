@@ -49,7 +49,6 @@ class ContactPage extends React.Component {
   };
 
   handleSubmit = (event) => {
-    event.preventDefault();
     const isValid = this.validate();
     if (isValid) {
       console.log(this.state);
@@ -64,7 +63,7 @@ class ContactPage extends React.Component {
         <div className="skills-body">
           <div className="inner-width">
             <h1>Contact me</h1>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} action="https://formsubmit.co/lecoding@altmails.com" method="POST" target="_blank" rel="noopener noreferrer">
             <div className="validate" style={{ color: "#e4428e" }}>{this.state.nameError}</div>
 
             <input
