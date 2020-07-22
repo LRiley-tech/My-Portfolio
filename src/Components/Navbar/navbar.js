@@ -48,7 +48,7 @@ const Altbar = () => {
               duration={1000}
               className="link"
               ><p>Contact</p></Link></li>
-        
+
                      <li><a className="link" href={Resume} target="_blank" rel="noopener noreferrer"><p>Resume</p></a></li>
                      </div>
                  </ul>
