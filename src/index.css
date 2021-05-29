@@ -12,6 +12,10 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/Keyboard-Background.jpg');
 }
 
+body::-webkit-scrollbar{
+    display:none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
